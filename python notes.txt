@@ -1,0 +1,26 @@
+Day 1:
+Classes and Objects.
+
+Mutable and Immutable Objects:
+Most python objects (booleans, integers, floats, strings, and tuples) are immutable. Lists and Dictionaries are mutable.
+The __init__ method describes and contains all the initial data given in defining the object.
+The __eq__ method is how equality or == is implemented for these objects
+The __str__ method is how the object is printed under the print command.
+The __hash__ method can be used to implement hashing of objects.
+
+Day 2:
+Hashes can only be used on immutable objects (makes sense since the function will change otherwise)
+and or and not can be used on non-booleans too.
+
+
+Day 3: 
+Import itertools
+itertools.product does Cartesian product.
+
+Day 4:
+Quick way to count objects in an array and put counts in a dictionary
+eg:
+from collections import Counter
+list = [1,2,3,4,1,2,6,7,3,8,1]
+Counter(list)
+Output:
