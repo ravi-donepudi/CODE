@@ -1,3 +1,5 @@
+Recording a review of my python skills mostly based on what I need to quickly solve LeetCode problems
+
 05/14
 Classes and Objects.
 
@@ -46,3 +48,5 @@ x<<y stands for x with it's bits shifted left  by y (Look at the direction of th
 x>>y stands for x with it's bits shifted right by y (Look at the direction of the arrows)
 Ask Naveen: If we do if f(x)==1: a=f(x), does this mean f(x) is computed twice
 Queue is a list where insertion is done at one end and removal is done at the other end. Dequeue is a list where every end supports insertion and removal.
+String formatting: Template: '%s,%n' % (string1, number1). %04d pads the digit with up to 4 leading zeros. %s can be used for strings and lists, %f for floats, %.4f for floats with exactly four decimal places
+
