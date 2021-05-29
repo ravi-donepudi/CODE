@@ -58,3 +58,12 @@ Can do chains of inequalities as booleans, for example 0<=a<=4
 To add multiple elements say a,b,c,d to a list ls, we can simply do ls+=a,b,c,d
 Union-Find data structure: Maintain a partition of a set (into disjoint subsets) and merging two parts of the portion (i.e. taking union of the subsets) when needed.
 Eg: Can use to find cycles in a loop-less undirected graph. Initialize the Union-Find as a collection of singletons containing the vertices. Loop through edges and for a given edge e, check if both it's vertices are in the same subset in the union-find. If not, merge the relevant subsets. If they are, scream that there's a cycle.
+
+
+05/28
+
+While doing recursive assignments (such as Fibonacci nuts or reversing a linked list etc), use concurrent assignments to avoid temporary duplicate variables.
+
+The global keyword can be used to indicate and modify a variable inside a nested function even if it is outside the appropriate scope. Very powerful but use with caution.
+
+
