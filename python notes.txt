@@ -66,4 +66,10 @@ While doing recursive assignments (such as Fibonacci nuts or reversing a linked 
 
 The global keyword can be used to indicate and modify a variable inside a nested function even if it is outside the appropriate scope. Very powerful but use with caution.
 
+05/31
+
+map takes an n-ary function and n iterables (like a list) and returns an iterable with the function applied to the sequence of iterables concurrently. If the input iterables don't all have the same number of elements, it results in an iterable with the same number of elements as the smallest iterable. Use list function to display the transformed iterables. Don't try to compare iterables directly. Always turn them into a list first.
+
+
+
 
