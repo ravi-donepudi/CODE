@@ -70,6 +70,29 @@ The global keyword can be used to indicate and modify a variable inside a nested
 
 map takes an n-ary function and n iterables (like a list) and returns an iterable with the function applied to the sequence of iterables concurrently. If the input iterables don't all have the same number of elements, it results in an iterable with the same number of elements as the smallest iterable. Use list function to display the transformed iterables. Don't try to compare iterables directly. Always turn them into a list first.
 
+06/01
+Template for binary search in an array where arr[I] true implies arr[I+1] is true to find the minimum value in arr satisfying a certain condition.
+Remember 3 things:
+1. The range to consider: (left, right=0, len(nums) usually)
+2. The return. left is the minimal k​ satisfying the condition function;
+3.
+
+
+left, right = 0, len(nums)
+while left<right:
+    mid=left+(right-left)//2
+    If condition(mid):
+	left=mid
+    Else:
+	right=mid+1
+Return left
+	
+
+
+
+
+
+
 
 
 
