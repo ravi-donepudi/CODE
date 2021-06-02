@@ -86,6 +86,8 @@ while left<right:
     Else:
 	right=mid+1
 Return left
+
+Bloom filters reading: A data structure for probabilistic set membership. It stores objects and when queried for membership, returns No or Maybe. Instead of using one hash function, use k hash functions on the object to store and mark the corresponding hash values as occupied in the hash table. To test membership of an object A, compute the same hash functions on A and check if all the computed hash values are occupied. If so, return a Maybe, otherwise return a No.
 	
 
 
