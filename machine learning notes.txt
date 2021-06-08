@@ -1,6 +1,0 @@
-CS 229:
-
-Chapter 1: Supervised Learning
-Denote x(i) as input or features. Denote y(i) as output or features
-A pair (x(i),y(i)) is called a training example and a set {(x(i),y(i))| 1<=i<=n}
-X is the space of inputs and Y is the space of outputs. We want to learn a function h:X-->Y such that h(x(i)) is close to y(i).
