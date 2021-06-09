@@ -90,9 +90,12 @@ Return left
 Bloom filters reading: A data structure for probabilistic set membership. It stores objects and when queried for membership, returns No or Maybe. Instead of using one hash function, use k hash functions on the object to store and mark the corresponding hash values as occupied in the hash table. To test membership of an object A, compute the same hash functions on A and check if all the computed hash values are occupied. If so, return a Maybe, otherwise return a No.
 	
 
-
-
-
+06/08
+Few useful tips with pandas:
+The following code returns a list of data frames, one for each table in the linked website.
+df = pd.read_html('https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M')
+To delete a column in a pandas dataframe df just do:
+df.drop('column_name',1) or df.drop(['c1','c3','c4'],axis=1)
 
 
 
