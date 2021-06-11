@@ -98,6 +98,8 @@ To delete a column in a pandas dataframe df just do:
 df.drop('column_name',1) or df.drop(['c1','c3','c4'],axis=1)
 
 
-
+06/10
+Started "grokking the coding interview" chapter 1: Sliding window.
+Key takeaways: Hashtables can be handy in remembering where what is.
 
 
